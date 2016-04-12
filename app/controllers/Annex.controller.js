@@ -104,7 +104,7 @@
 
 			// Image
 			var image = new Image();
-			var src = 'storage/' + this.model.pictures[index].url;
+			var src = 'http://holi-prod.s3.eu-central-1.amazonaws.com/' + this.model.pictures[index].url;
 			image.onload = function ()
 			{
 				// Insert in slide
@@ -118,7 +118,7 @@
 				else{ console.log('leave'); that.callbacks.onLoaded(); }
 
 			};
-			image.src = 'storage/' + this.model.pictures[index].url;
+			image.src = 'http://holi-prod.s3.eu-central-1.amazonaws.com/' + this.model.pictures[index].url;
 
 		};
 

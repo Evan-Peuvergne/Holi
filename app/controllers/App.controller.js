@@ -127,9 +127,9 @@
 
 		this.loadScript = function (assets, index, callback)
 		{
+			
 			if(assets.js.length > 0)
 			{
-				console.log(assets.js[index]);
 				$.getScript(assets.js[index], function (res, status)
 				{	
 					that.updateLoader(5 + (((index+1)*15)/assets.images.length));

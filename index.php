@@ -120,7 +120,7 @@
 				{ name: 'finish', url: 'app/views/finish.template.html?i=3', load: true },
 			],
 			images: [
-				{ name: 'cover', url: 'http://www.hdwallpapersos.com/wp-content/uploads/2015/02/roger-federer-best-wide-high-definition-wallpaper.jpg' },
+				// { name: 'cover', url: 'http://www.hdwallpapersos.com/wp-content/uploads/2015/02/roger-federer-best-wide-high-definition-wallpaper.jpg' },
 				{ name: 'cover_chapitre_1', url: 'storage/1/cover_chapitre_1.jpg' },
 				{ name: 'cover_chapitre_2', url: 'storage/2/cover_chapitre_2.jpg' },
 				{ name: 'cover_chapitre_3', url: 'storage/3/cover_chapitre_3.jpg' },

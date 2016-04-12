@@ -1,0 +1,25 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "I'm Evan Peuvergne. Webdesigner & webdeveloper from Paris, France. Studying at HETIC.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-connect-php": "0.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "postinstall": "gulp heroku:production"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC"
+}

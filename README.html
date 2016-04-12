@@ -1,0 +1,42 @@
+<h3 id="introduction">Introduction</h3>
+<hr>
+<p>Ce projet est un web-documentaire sur la Holi, la fête des couleurs se déroulant en Inde.
+Vous allez traverser ce magnifique festival à travers les yeux d’un touriste visitant la ville de Kanpur, de sa descente d’avion jusqu’au point final de la Holi dans le Gange. Vous allez rencontrer de manière immersive la culture indienne dans toute sa diversité ainsi que les rites et coutumes de l’hindouisme. De somptueuses ressources graphiques viendront appuyer votre découverte durant l’intégralité du web-documentaire.</p>
+<h3 id="equipe">Equipe</h3>
+<hr>
+<p>Ce projet a été réalisé dans le cadre de la pédagogie d’HETIC par :</p>
+<ul>
+<li>Lucas Lemahieu - Rédactions et contenus</li>
+<li>Evan Peuvergne - Développement et design</li>
+<li>Tom Bonnike - Contenus et développement</li>
+<li>Rodolphe Grivet - Montage des ressources audios et vidéos</li>
+<li>Leslie Achour - Montage des ressources vidéos et design</li>
+</ul>
+<h3 id="technologies-utilis-es">Technologies utilisées</h3>
+<hr>
+<ul>
+<li>Langages: HTML5 / CSS3 / JavaScript</li>
+<li>Librairie: jQuery</li>
+<li>One page full Ajax</li>
+</ul>
+<h3 id="architecture">Architecture</h3>
+<hr>
+<p>Modèle Vue Controlleur (MVC)</p>
+<p><strong>Controllers</strong></p>
+<ul>
+<li>Objet App     <ul>
+<li>Objet Home</li>
+<li>Object Doc<ul>
+<li>Objet Chapter</li>
+<li>Objet Personna</li>
+<li>Objet Annex</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Les objets contrôlent généralement des objets enfants et rendent des comptes sous forme de callbacks aux objets parents.</p>
+<p><strong>Models</strong></p>
+<p>Les models sont représentés par des fichiers .json permettant de structurer les différents chapitres. Cette séparation et organisation permet une grande modularité du projet: ajouter ou modifier du contenu peut se faire en ne modifiant qu&#39;un seul fichier.</p>
+<p><strong>Views</strong></p>
+<p>Plusieurs templates, le plus souvent statiques, sont appellées par les controlleurs avant d&#39;être injectés dans l&#39;application.</p>

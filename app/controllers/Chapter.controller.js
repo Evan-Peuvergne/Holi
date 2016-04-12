@@ -89,7 +89,7 @@
 			// Fill DOM Chapter
 			this.dom.chapter.elem = $('<div class="page page-chapter page-chapter-video showed"></div>');
 			this.dom.chapter.media = $('<video width="' + this.doc.app.dimensions.window.width + '" height="' + this.doc.app.dimensions.window.height + '"></video>');
-			this.dom.chapter.media.append('<source src="' + ('storage/' + this.model.video) + '" type="video/mp4"></source>');
+			this.dom.chapter.media.append('<source src="' + ('http://holi-prod.s3.eu-central-1.amazonaws.com/' + this.model.video) + '" type="video/mp4"></source>');
 			this.dom.media = this.dom.chapter.media.get(0);
 			this.dom.media.load();
 			this.dom.chapter.media = $(this.dom.chapter.media).addClass('page-chapter-media');

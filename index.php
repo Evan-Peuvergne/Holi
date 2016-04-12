@@ -121,16 +121,16 @@
 			],
 			images: [
 				// { name: 'cover', url: 'http://www.hdwallpapersos.com/wp-content/uploads/2015/02/roger-federer-best-wide-high-definition-wallpaper.jpg' },
-				{ name: 'cover_chapitre_1', url: 'storage/1/cover_chapitre_1.jpg' },
-				{ name: 'cover_chapitre_2', url: 'storage/2/cover_chapitre_2.jpg' },
-				{ name: 'cover_chapitre_3', url: 'storage/3/cover_chapitre_3.jpg' },
-				{ name: 'cover_chapitre_4A', url: 'storage/4A/cover_chapitre_4A.jpg' },
-				{ name: 'cover_chapitre_4B', url: 'storage/4B/cover_chapitre_4B.jpg' },
-				{ name: 'cover_chapitre_5', url: 'storage/5/cover_chapitre_5.jpg' },
-				{ name: 'cover_chapitre_6A', url: 'storage/6A/cover_chapitre_6A.jpg' },
-				{ name: 'cover_chapitre_6B', url: 'storage/6B/cover_chapitre_6B.jpg' },
-				{ name: 'cover_chapitre_6C', url: 'storage/6C/cover_chapitre_6C.jpg' },
-				{ name: 'cover_chapitre_7', url: 'storage/7/cover_chapitre_7.jpg' }
+				{ name: 'cover_chapitre_1', url: 'http://holi-prod.s3.eu-central-1.amazonaws.com/1/cover_chapitre_1.jpg' },
+				{ name: 'cover_chapitre_2', url: 'http://holi-prod.s3.eu-central-1.amazonaws.com/2/cover_chapitre_2.jpg' },
+				{ name: 'cover_chapitre_3', url: 'http://holi-prod.s3.eu-central-1.amazonaws.com/3/cover_chapitre_3.jpg' },
+				{ name: 'cover_chapitre_4A', url: 'http://holi-prod.s3.eu-central-1.amazonaws.com/4A/cover_chapitre_4A.jpg' },
+				{ name: 'cover_chapitre_4B', url: 'http://holi-prod.s3.eu-central-1.amazonaws.com/4B/cover_chapitre_4B.jpg' },
+				{ name: 'cover_chapitre_5', url: 'http://holi-prod.s3.eu-central-1.amazonaws.com/5/cover_chapitre_5.jpg' },
+				{ name: 'cover_chapitre_6A', url: 'http://holi-prod.s3.eu-central-1.amazonaws.com/6A/cover_chapitre_6A.jpg' },
+				{ name: 'cover_chapitre_6B', url: 'http://holi-prod.s3.eu-central-1.amazonaws.com/6B/cover_chapitre_6B.jpg' },
+				{ name: 'cover_chapitre_6C', url: 'http://holi-prod.s3.eu-central-1.amazonaws.com/6C/cover_chapitre_6C.jpg' },
+				{ name: 'cover_chapitre_7', url: 'http://holi-prod.s3.eu-central-1.amazonaws.com/7/cover_chapitre_7.jpg' }
 			]
 		},
 		function ()
